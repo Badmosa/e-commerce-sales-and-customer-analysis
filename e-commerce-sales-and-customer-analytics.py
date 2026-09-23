@@ -34,9 +34,8 @@ def sales_by_channel(df):
         .sort_values("net_sales", ascending=False)
     )
  
- 
+#Revenue by region. 
 def sales_by_region(df):
-    """Revenue by region."""
     return (
         df.groupby("region")
         .agg(orders=("order_id", "count"), net_sales=("net_sales", "sum"))
@@ -50,9 +49,9 @@ def revenue_over_time(df, freq="M"):
     d["order_date"] = pd.to_datetime(d["order_date"])
     return d.set_index("order_date").resample(freq)["net_sales"].sum()
  
- 
+ # How much revenue is lost to discounts, tax, and shipping?
 def gross_vs_net_gap(df):
-    """How much revenue is lost to discounts, tax, and shipping."""
+    # How much revenue is lost to discounts, tax, and shipping.
     total_gross = df["gross_sales"].sum()
     total_discount = df["discount_amount"].sum()
     total_tax = df["tax_amount"].sum()
@@ -67,5 +66,3 @@ def gross_vs_net_gap(df):
         "gap_pct": round((total_gross - total_net) / total_gross * 100, 2)
     })
 
-    print("=== Sales by Channel ===")
-    print(sales_by_channel(df), "\n")
