@@ -20,7 +20,7 @@ df.head()
 
 # # Inspecting for duplicates in the dataset.
 # df.duplicated().sum()
- 
+
 
 # 1. SALES & REVENUE
  
@@ -66,3 +66,6 @@ def gross_vs_net_gap(df):
         "net_sales": total_net,
         "gap_pct": round((total_gross - total_net) / total_gross * 100, 2)
     })
+
+    print("=== Sales by Channel ===")
+    print(sales_by_channel(df), "\n")
