@@ -10,13 +10,14 @@ file_path = path + "/ecommerce_sales_customer_analytics_150k.csv"
 df = pd.read_csv(file_path)
 
 df.head()
----------------------------
-# Data Inspection
-print(df.columns)
+
+# # Data Inspection
+# print(df.columns)
 
 
-# Inspecting the dataset info.
-print(df.info())
+# # Inspecting the dataset info.
+# print(df.info())
 
-# Inspecting for duplicates in the dataset.
-df.duplicated().sum()
+# # Inspecting for duplicates in the dataset.
+# df.duplicated().sum()
+
