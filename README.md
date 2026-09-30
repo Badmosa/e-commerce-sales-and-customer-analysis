@@ -21,6 +21,13 @@ The analysis is organized into six sections:
 
 2. **Profitability**
 
-Most profitable regions and channels (not just highest revenue)
+- Most profitable regions and channels (not just highest revenue)
 - Whether discounts/coupons hurt profit margin
 - Where costs are concentrated (product cost vs. shipping vs. tax vs. discounts)
+
+3. **Customer Behavior & Segmentation**
+
+- Highest-value customers by lifetime value
+- Returning vs. new customer rate and spend comparison
+- Spending patterns by customer segment/type
+Buying patterns by age bracket and gender
