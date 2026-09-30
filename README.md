@@ -46,3 +46,17 @@ Buying patterns by age bracket and gender
 - Most common return reasons
 - Whether review sentiment correlates with returns
 - Return rate by sales channel
+
+**Payment Behavior**
+
+- Payment status (success/pending/failed) breakdown by payment method
+
+**🛠️ Tools & Libraries**
+- Python 3
+- pandas
+- kagglehub (for downloading the dataset directly from Kaggle)
+
+📁 **Repo structure**
+- .├── e-commerce-sales-and-customer-analytics.ipynb                # Main analysis notebook
+- ├── import kagglehub.py                               # Standalone script to fetch/preview the dataset
+- └── README.md
