@@ -31,3 +31,18 @@ The analysis is organized into six sections:
 - Returning vs. new customer rate and spend comparison
 - Spending patterns by customer segment/type
 Buying patterns by age bracket and gender
+
+4. **Marketing Effectiveness**
+
+- Sales and order volume by marketing channel and campaign
+- Coupon usage vs. order value and profit margin
+
+5. **Logistics & Delivery Performance**
+
+- Rate of delivery SLA breaches (actual vs. estimated delivery time), broken down by warehouse and shipping method
+
+6. **Returns & Customer Satisfaction**
+
+- Most common return reasons
+- Whether review sentiment correlates with returns
+- Return rate by sales channel
