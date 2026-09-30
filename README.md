@@ -60,3 +60,12 @@ Buying patterns by age bracket and gender
 - .├── e-commerce-sales-and-customer-analytics.ipynb                # Main analysis notebook
 - ├── import kagglehub.py                               # Standalone script to fetch/preview the dataset
 - └── README.md
+
+**Run Cell:**
+
+jupyter notebook e-commerce-sales-and-customer-analytics.ipynb
+
+### 📌 Notes
+- This notebook focuses on data manipulation and business-question answering with pandas rather than charting — every result is a table/aggregation, so it doubles well as a pandas practice reference (groupby, agg, resample, pd.cut, correlation, etc.).
+- Some fields are naturally sparse by design (e.g., return_reason and coupon_code are only populated when applicable), which is reflected in the "Data Inspection" section.
+
